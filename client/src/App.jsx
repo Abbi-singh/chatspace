@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 import "./App.css";
 
-const API = "http://10.122.150.44:5000/api";
-const SERVER_URL = "http://10.122.150.44:5000";
+const API = "https://chatspace-hfce.onrender.com/api";
+const SERVER_URL = "https://chatspace-hfce.onrender.com";
 
 const socket = io(SERVER_URL, {
   autoConnect: false,
